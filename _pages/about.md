@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: joint-event for <b>MICCAI 2023 Challenges</b> <a href='https://crown.isi.uu.nl/'>CROWN</a> & <a href='https://topcow23.grand-challenge.org/'>TopCoW</a>
+subtitle: joint-event for <b>MICCAI 2023 Challenges</b> <a href='toothfairychallenge.eu'>ToothFairy</a> & <a href=''>Boh</a>
 
 profile:
   align: right
