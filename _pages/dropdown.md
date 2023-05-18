@@ -7,6 +7,6 @@ dropdown: true
 children: 
     - title: ToothFairy
       permalink: https://toothfairychallenge.eu
-    - title: Other
+    - title: TODO
       permalink: https://google.com
 ---
