@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: joint-event for <b>MICCAI 2023 Challenges</b> <a href='https://toothfairychallenge.eu'>Tooth Fairy - A Cone-Beam Computed Tomography Segmentation Challenge</a> & <a href='https://google.com'>Semi-supervised Teeth Segmentation Challenge</a>
+subtitle: Joint-event for <b>MICCAI 2023 Challenges</b> <a href='https://toothfairychallenge.eu'>Tooth Fairy - A Cone-Beam Computed Tomography Segmentation Challenge</a> & <a href='https://google.com'>Semi-supervised Teeth Segmentation Challenge</a>
 
 profile:
   align: right
@@ -21,8 +21,9 @@ Welcome to the **Tooth Fairy: Supervised and Semi-Supervised Maxillofacial Image
 
 This event will host two challenges of MICCAI 2023:
 >
-- [`Tooth Fairy: A Cone-Beam Computed Tomography Segmentation Challenge`](https://toothfairychallenge.eu): ToothFairy
-- [`Semi-supervised Teeth Segmentation Challenge`](): ???
+- [`Tooth Fairy: A Cone-Beam Computed Tomography Segmentation Challenge`](https://toothfairychallenge.eu)
+- [`Semi-supervised Teeth Segmentation Challenge`](https://google.com)
 
 Together both challenges will organize a joint event called "Tooth Fairy: Supervised and Semi-Supervised Maxillofacial Image Segmentation Challenge" at the MICCAI Conference. In this half-day joint-event, we will have a combined introduction and overview on the topics of maxillofacial image segmentation, followed by two sessions (1.5h each) devoted to summarizing and announcing the results of each challenge.
+
 Our joint-event will take place on the 8th of October in Vancouver, Canada. Stay tuned for more information! Don't forget to checkout and register on challenge-specific websites.
