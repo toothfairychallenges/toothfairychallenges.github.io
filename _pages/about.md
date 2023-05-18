@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: joint-event for <b>MICCAI 2023 Challenges</b> <a href='https://toothfairychallenge.eu'>Tooth Fairy: A Cone-Beam Computed Tomography Segmentation Challenge</a> & <a href=''>Semi-supervised Teeth Segmentation Challenge</a>
+subtitle: joint-event for <b>MICCAI 2023 Challenges</b> <a href='https://toothfairychallenge.eu'>Tooth Fairy: A Cone-Beam Computed Tomography Segmentation Challenge</a> & <a href='https://google.com'>Semi-supervised Teeth Segmentation Challenge</a>
 
 profile:
   align: right

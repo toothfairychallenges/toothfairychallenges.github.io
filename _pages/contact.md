@@ -1,18 +1,18 @@
 ---
 layout: page
 permalink: /contact/
-title: contact
-description: contact persons for CoW Benchmark Event MICCAI 2023
+title: Contacts
+description: contact persons for TootFairy Event MICCAI 2023
 nav: true
 nav_order: 7
 ---
 
-[`CROWN Challenge`](https://crown.isi.uu.nl/):
-- Website: https://crown.isi.uu.nl/
-- Contact: Iris Vos
-- Email: i.n.vos-6@umcutrecht.nl
+[`Tooth Fairy: Supervised and Semi-Supervised Maxillofacial Image Segmentation Challenge`](https://toothfairychallenge.eu):
+- Website: https://toothfairychallenge.eu
+- Contact: Federico Bolelli
+- Email: federico.bolelli@unimore.it
 
-[`TopCoW Challenge`](https://topcow23.grand-challenge.org/):
-- Website: https://topcow23.grand-challenge.org/
-- Contact: Kaiyuan Yang
-- Email: kaiyuan.yang@uzh.ch
+[`Semi-supervised Teeth Segmentation Challenge`](https://google.com/):
+- Website: https://google.com
+- Contact: Yaqi Wang
+- Email: wangyaqi@cuz.edu.cn
