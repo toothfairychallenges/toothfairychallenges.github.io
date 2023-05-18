@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-04-12
+date: 2023-05-18
 inline: true
 related_posts: false
 ---
 
-CoW Benchmark joint-event's website launched! :writing_hand:
+ToothFairy challenge joint-event's website launched! :writing_hand:
