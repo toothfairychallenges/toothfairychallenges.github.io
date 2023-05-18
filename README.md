@@ -1,5 +1,5 @@
-# CoWBenchmark.github.io
-Circle of Willis Benchmarking Event 2023 TEST
+# toothfairychallenges.github.io
+ToothFairy Challenge Event 2023 TEST
 
 ## Local build and test
 ```bash
