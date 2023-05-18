@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://cowbenchmark.github.io/sitemap.xml
+Sitemap: https://toothfairychallenges.github.io/sitemap.xml
