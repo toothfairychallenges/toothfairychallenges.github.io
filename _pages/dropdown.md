@@ -7,6 +7,6 @@ dropdown: true
 children: 
     - title: ToothFairy
       permalink: https://toothfairychallenge.eu
-    - title: TODO
-      permalink: https://google.com
+    - title: STS
+      permalink: https://zenodo.org/record/7840021#.ZGea-3ZByUm
 ---
