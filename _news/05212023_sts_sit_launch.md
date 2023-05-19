@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-STS (STS-2D & STS-3D) registration opens and dataset is released
+[`STS-2D`](https://tianchi.aliyun.com/competition/entrance/532086/introduction) & [`STS-3D`](https://tianchi.aliyun.com/competition/entrance/532087/introduction) registration opens and dataset is released
