@@ -12,7 +12,7 @@ nav_order: 7
 - Contact: Federico Bolelli
 - Email: federico.bolelli@unimore.it
 
-[`Semi-supervised Teeth Segmentation Challenge`](https://google.com/):
-- Website: https://google.com
+[`Semi-supervised Teeth Segmentation Challenge`](https://zenodo.org/record/7840021#.ZGea-3ZByUm):
+- Website: [`STS-2D`](https://tianchi.aliyun.com/competition/entrance/532086/introduction) & [`STS-3D`](https://tianchi.aliyun.com/competition/entrance/532087/introduction)
 - Contact: Yaqi Wang
 - Email: wangyaqi@cuz.edu.cn
