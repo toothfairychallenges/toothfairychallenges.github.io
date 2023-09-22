@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Joint-event for <b>MICCAI 2023 Challenges</b> <a href='https://toothfairychallenge.eu'>ToothFairy - A Cone-Beam Computed Tomography Segmentation Challenge</a> & Semi-supervised Teeth Segmentation Challenges (<a href='https://tianchi.aliyun.com/competition/entrance/532086/introduction'>STS-2D</a> & <a href='https://tianchi.aliyun.com/competition/entrance/532087/introduction'>STS-3D</a>)
+subtitle: Joint-event for <b>MICCAI 2023 Challenges</b> <a href='http://toothfairychallenge.eu'>ToothFairy - A Cone-Beam Computed Tomography Segmentation Challenge</a> & Semi-supervised Teeth Segmentation Challenges (<a href='https://tianchi.aliyun.com/competition/entrance/532086/introduction'>STS-2D</a> & <a href='https://tianchi.aliyun.com/competition/entrance/532087/introduction'>STS-3D</a>)
 
 profile:
   align: right
@@ -20,7 +20,7 @@ Welcome to the **Tooth Fairy: Supervised and Semi-Supervised Maxillofacial Image
 
 This event will host two challenges of MICCAI 2023:
 >
-- [`ToothFairy`](https://toothfairychallenge.eu): A Cone-Beam Computed Tomography Segmentation Challenge
+- [`ToothFairy`](http://toothfairychallenge.eu): A Cone-Beam Computed Tomography Segmentation Challenge
 - STS: Semi-supervised Teeth Segmentation Challenge. This competition consists of two tracks:
   - [`STS-2D`](https://tianchi.aliyun.com/competition/entrance/532086/introduction): Semi-supervised Tooth Segmentation on Panoramic X-ray Image
   - [`STS-3D`](https://tianchi.aliyun.com/competition/entrance/532087/introduction): Semi-supervised Tooth Segmentation on Cone Beam Computed Tomography Volume
