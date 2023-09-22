@@ -7,7 +7,7 @@ nav: true
 nav_order: 7
 ---
 
-[`Tooth Fairy: Supervised and Semi-Supervised Maxillofacial Image Segmentation Challenge`](https://toothfairychallenge.eu):
+[`Tooth Fairy: Supervised and Semi-Supervised Maxillofacial Image Segmentation Challenge`](http://toothfairychallenge.eu):
 - Website: https://toothfairychallenge.eu
 - Contact: Federico Bolelli
 - Email: federico.bolelli@unimore.it
