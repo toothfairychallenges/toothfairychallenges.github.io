@@ -32,5 +32,11 @@
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
+    <script type="text/javascript">
+      let to_change = document.querySelectorAll('a[href="https://toothfairychallenge.eu"]');
+      for(let i = 0; i < to_change.length; i++){
+        to_change[i].href = 'http://toothfairychallenge.eu';
+      }
+    </script>
   </body>
 </html>
