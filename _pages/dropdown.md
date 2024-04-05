@@ -5,8 +5,8 @@ nav: true
 nav_order: 6
 dropdown: true
 children: 
-    - title: ToothFairy
-      permalink: http://toothfairychallenge.eu
-    - title: STS
-      permalink: https://zenodo.org/record/7840021#.ZGea-3ZByUm
+    - title: ToothFairy - MICCAI 2023
+      permalink: https://toothfairychallenges.github.io/miccai2023/
+    - title: ToothFairy 2 - MICCAI 2024
+      permalink: https://toothfairychallenges.github.io/miccai2024/
 ---
