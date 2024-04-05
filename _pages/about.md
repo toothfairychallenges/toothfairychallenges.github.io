@@ -5,8 +5,14 @@ permalink: /
 subtitle: Welcome to the <b>ToothFairy</b>, a series of <b>MICCAI Challenges</b> focused on segmenting different anatomical structures in <b>Cone-Beam Computed Tomography</b> scans
 
 profile:
-  align: right
+  align: left
   image: miccai2023-mobile-logo_resized.jpg
+  image_circular: false # crops the image to make it circular
+  address:
+    
+profile2:
+  align: right
+  image: miccai2024-mobile-logo_resized.jpg
   image_circular: false # crops the image to make it circular
   address:
 
