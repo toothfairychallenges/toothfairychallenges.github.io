@@ -13,7 +13,7 @@ These are the contact details of the people who created this website.
 - Email: federico.bolelli@unimore.it
 
 [`Luca Lumetti `](https://lucalumetti.it/):
-- Email: kevin.marchesini@unimore.it
+- Email: luca.lumetti@unimore.it
 
 [`Kevin Marchesini`](https://personale.unimore.it/Rubrica/dettaglio/249277):
 - Email: kevin.marchesini@unimore.it
