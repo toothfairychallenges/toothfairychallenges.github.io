@@ -11,66 +11,63 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  {% assign profile_alignment = page.profile.align %}
-  {% assign profile2_alignment = page.profile2.align %}
-
   <div class="clearfix">
     <article>
       {{ content }}
+
+      {% if page.profile %}
+      <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+        {% if page.profile.image_circular %}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+        {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+
+        <a href="/your-link-url">
+          {% include figure.html
+          path=profile_image_path
+          class=profile_image_class
+          alt=page.profile.image -%}
+        </a>
+        {% endif -%}
+        {%- if page.profile.address %}
+        <div class="address">
+          {{ page.profile.address }}
+        </div>
+        {%- endif %}
+      </div>
+      {%- endif %}
     </article>
 
-    {% if page.profile %}
-    <div class="profile float-{%- if profile_alignment == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-      {% if page.profile.image_circular %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-      {% else %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-      {% endif %}
-
-      <a href="/your-link-url">
-        {% include figure.html
-        path=profile_image_path
-        class=profile_image_class
-        alt=page.profile.image -%}
-      </a>
-      {% endif -%}
-      {%- if page.profile.address %}
-      <div class="address">
-        {{ page.profile.address }}
-      </div>
-      {%- endif %}
-    </div>
-    {%- endif %}
-
     {% if page.profile2 %}
-    <div class="profile float-{%- if profile2_alignment == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile2.image %}
-      {%- assign profile2_image_path = page.profile2.image | prepend: 'assets/img/' -%}
+    <div class="clearfix">
+      <div class="profile float-{%- if page.profile2.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile2.image %}
+        {%- assign profile2_image_path = page.profile2.image | prepend: 'assets/img/' -%}
 
-      {% if page.profile2.image_circular %}
-      {%- assign profile2_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-      {% else %}
-      {%- assign profile2_image_class = "img-fluid z-depth-1 rounded" -%}
-      {% endif %}
+        {% if page.profile2.image_circular %}
+        {%- assign profile2_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+        {%- assign profile2_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
 
-      <a href="/your-second-link-url">
-        {% include figure.html
-        path=profile2_image_path
-        class=profile2_image_class
-        alt=page.profile2.image -%}
-      </a>
-      {% endif -%}
-      {%- if page.profile2.address %}
-      <div class="address">
-        {{ page.profile2.address }}
+        <a href="/your-second-link-url">
+          {% include figure.html
+          path=profile2_image_path
+          class=profile2_image_class
+          alt=page.profile2.image -%}
+        </a>
+        {% endif -%}
+        {%- if page.profile2.address %}
+        <div class="address">
+          {{ page.profile2.address }}
+        </div>
+        {%- endif %}
       </div>
-      {%- endif %}
     </div>
     {%- endif %}
   </div>
 </div>
-
-
