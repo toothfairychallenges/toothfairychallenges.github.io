@@ -8,7 +8,7 @@ profile:
   align: right
   image: miccai2023-mobile-logo_resized.jpg
   image_circular: false # crops the image to make it circular
-  address: https://toothfairy.grand-challenge.org/
+  address: 
     
 profile2:
   align: right
