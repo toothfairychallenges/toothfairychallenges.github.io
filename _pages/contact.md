@@ -2,7 +2,7 @@
 layout: page
 permalink: /contact/
 title: Contacts
-description: contact persons for TootFairy Event MICCAI 2023
+description:
 nav: true
 nav_order: 7
 ---
