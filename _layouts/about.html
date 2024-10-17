@@ -81,6 +81,38 @@ layout: default
 
     </article>
     {% endif %}
+    {% if page.profile3 %}
+    <article>
+      <div class="profile float-{%- if page.profile3.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile3.image %}
+        {%- assign profile3_image_path = page.profile3.image | prepend: 'assets/img/' -%}
+
+        {% if page.profile3.image_circular %}
+        {%- assign profile3_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+        {%- assign profile3_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+
+        <a href="https://cvpr.thecvf.com/Conferences/2025">
+          {% include figure.html
+          path=profile3_image_path
+          class=profile3_image_class
+          alt=page.profile3.image -%}
+        </a>
+        {% endif -%}
+        {%- if page.profile3.address %}
+        <div class="address">
+          {{ page.profile3.address }}
+        </div>
+        {%- endif %}
+      </div>
+
+      <p>
+        <a href="https://toothfairychallenges.github.io/miccai2024/">Multi-Structure and Multi-Modal Learning for 3D Dental Image Analysis</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Tincidunt dui ut ornare lectus sit amet. Et sollicitudin ac orci phasellus egestas tellus rutrum. Scelerisque in dictum non consectetur a erat.
+      </p>
+
+    </article>
+    {% endif %}
   </div>
 </div>
 
