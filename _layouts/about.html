@@ -43,7 +43,7 @@ layout: default
       </div>
 
       <p>
-        <a href="https://toothfairychallenges.github.io/miccai2023/">ToothFairy: A Cone-Beam Computed Tomography Segmentation Challenge</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Tincidunt dui ut ornare lectus sit amet. Et sollicitudin ac orci phasellus egestas tellus rutrum. Scelerisque in dictum non consectetur a erat.
+        <a href="https://toothfairychallenges.github.io/miccai2023/">ToothFairy: A Cone-Beam Computed Tomography Segmentation Challenge</a>. The ToothFairy Challenge, initiated by the University of Modena and Reggio Emilia (UNIMORE) in collaboration with Radboud University Medical Center, focuses on the segmentation of the Inferior Alveolar Canal from CBCT scans of dental images. The challenge aims to foster the development of innovative AI-driven solutions for dental imaging analysis, encouraging international collaboration among academic institutions, healthcare professionals, and researchers. Results from the challenge were presented at MICCAI 2023, featuring contributions from over 30 research groups worldwide. Prizes were awarded to the top three best-performing solutions.
       </p>
 
     </article>
@@ -76,7 +76,39 @@ layout: default
       </div>
 
       <p>
-        <a href="https://toothfairychallenges.github.io/miccai2024/">Supervised and Semi-supervised Multi-Structure Segmentation and Landmark Detection in Dental Data</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Tincidunt dui ut ornare lectus sit amet. Et sollicitudin ac orci phasellus egestas tellus rutrum. Scelerisque in dictum non consectetur a erat.
+        <a href="https://toothfairychallenges.github.io/miccai2024/">Supervised and Semi-supervised Multi-Structure Segmentation and Landmark Detection in Dental Data</a>. The ToothFairy 2 Challenge, launched by the University of Modena and Reggio Emilia (UNIMORE) in collaboration with Radboud University Medical Center, focuses on multi-structure segmentation of CBCT maxillo-facial images. The goal is to segment various anatomical structures, including the Background, Jaws, Inferior Alveolar Canals, Maxillary Sinus, Pharynx, Bridges, Crowns, Implants, and Upper and Lower Teeth, while fostering international collaboration. Results from the challenge were presented at MICCAI 2024, featuring contributions from 26 research groups worldwide. Prizes were awarded to the top three best-performing solutions.
+      </p>
+
+    </article>
+    {% endif %}
+    {% if page.profile3 %}
+    <article>
+      <div class="profile float-{%- if page.profile3.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile3.image %}
+        {%- assign profile3_image_path = page.profile3.image | prepend: 'assets/img/' -%}
+
+        {% if page.profile3.image_circular %}
+        {%- assign profile3_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+        {% else %}
+        {%- assign profile3_image_class = "img-fluid z-depth-1 rounded" -%}
+        {% endif %}
+
+        <a href="https://cvpr.thecvf.com/Conferences/2025">
+          {% include figure.html
+          path=profile3_image_path
+          class=profile3_image_class
+          alt=page.profile3.image -%}
+        </a>
+        {% endif -%}
+        {%- if page.profile3.address %}
+        <div class="address">
+          {{ page.profile3.address }}
+        </div>
+        {%- endif %}
+      </div>
+
+      <p>
+        <a href="https://toothfairychallenges.github.io/miccai2024/">Multi-Structure and Multi-Modal Learning for 3D Dental Image Analysis</a>. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Tincidunt praesent semper feugiat nibh sed pulvinar proin gravida hendrerit. Tincidunt dui ut ornare lectus sit amet. Et sollicitudin ac orci phasellus egestas tellus rutrum. Scelerisque in dictum non consectetur a erat.
       </p>
 
     </article>
