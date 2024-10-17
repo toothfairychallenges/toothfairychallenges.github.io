@@ -18,7 +18,7 @@ profile2:
 
 profile3:
   align: right
-  image: cvpr-navbar-logo.svg
+  image: cpvr-2025-logo.svg
   image_circular: false # crops the image to make it circular
   address:
 
