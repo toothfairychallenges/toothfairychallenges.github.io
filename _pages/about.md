@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Welcome to the <b>ToothFairy</b>, a series of <b>MICCAI Challenges</b> focused on segmenting different anatomical structures in <b>Cone-Beam Computed Tomography</b> scans.
+subtitle: Welcome to <b>ToothFairy</b>, a series of <b>challenges</b> focused on dental images analysis.
 
 profile:
   align: right

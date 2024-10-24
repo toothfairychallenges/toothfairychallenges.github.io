@@ -9,4 +9,6 @@ children:
       permalink: https://toothfairychallenges.github.io/miccai2023/
     - title: MICCAI 2024
       permalink: https://toothfairychallenges.github.io/miccai2024/
+    - title: CVPR 2025
+      permalink: https://toothfairychallenges.github.io/cvpr2025/
 ---
