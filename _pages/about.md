@@ -18,7 +18,7 @@ profile2:
 
 profile3:
   align: right
-  image: cpvr-2025-logo.svg
+  image: miccai_2025_logo.svg
   image_circular: false # crops the image to make it circular
   address:
 
